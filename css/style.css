@@ -62,6 +62,7 @@ header{
     margin:0; 
 }
 .heading { 
+background-color: #e62e2e;
     margin:0;
 }
 .logo
@@ -251,4 +252,38 @@ transition: all 0.35s ease-in-out;
 
 .progress-section {
     margin: 40px 20px;
+}
+/* ------------------------------------Heading Form */
+
+.bg-color-contact {
+    background-color:#fff;
+}
+/* -------------------------------------Contact Form */
+.contact-heading{
+    font-family:"Exo",sans serif;
+    font-weight:300;
+    margin-top:25px;
+    margin-bottom:20px;
+
+}
+.center-form { 
+ padding-top:10px;
+ margin: 0 auto;
+ max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top:15px;
+    margin-bottom:20px;
+    color:#fafafa;
+    background-color:#e84610;
+}
+/* --------------------------Media Queries */
+
+@media(min-width:992px) {
+    .center-form { 
+ padding-top:30px;
+ margin: 0 auto;
+ max-width:50%;
+min-height: 240px;
 }
